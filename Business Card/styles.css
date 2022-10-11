@@ -1,0 +1,30 @@
+body {
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.avatar {
+    width: 150px;
+    border-radius: 100px;
+}
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #726953;
+    color: #1d1d1d;
+    border-bottom: 6px solid #5b3000;
+    animation-name: example;
+    animation-duration: 10s;
+}
+@keyframes example {
+  from {background-color: #726953;}
+  to {background-color: #82A6b1;}
+}
+/* Final challenge:
+Download the code to your local computer and place it
+in a folder called "business-card"
+*/
